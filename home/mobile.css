@@ -1,0 +1,11 @@
+@media(max-width: 450px) {
+    #about .about-container ul li {
+        font-size: 4rem;
+        margin: 0;
+        padding: .5rem;
+    }
+
+    #about .about-container p {
+         font-size: 1rem;
+    }
+}
