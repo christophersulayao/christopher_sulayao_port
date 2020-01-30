@@ -16,7 +16,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .button {
@@ -84,7 +84,7 @@ a {
 }
 
 #social .social-container .social-content i a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     margin: 1rem 0;
     padding: 1rem
@@ -94,13 +94,30 @@ a {
     color: rgba(29,161,242,1.00);
 }
 
+#social .social-container .social-content i.fab.fa-twitter:hover {
+    cursor: pointer;
+    color: coral;
+} 
+
 #social .social-container .social-content i.fab.fa-linkedin-in {
     color: rgba(29,161,242,1.00);
 }
 
+#social .social-container .social-content i.fab.fa-linkedin-in:hover {
+    cursor: pointer;
+    color: coral;
+} 
+
 #social .social-container .social-content i.fab.fa-facebook-f {
     color: #3578E5;
 }
+
+#social .social-container .social-content i.fab.fa-facebook-f:hover {
+    cursor: pointer;
+    color: coral;
+} 
+
+
 
 
 

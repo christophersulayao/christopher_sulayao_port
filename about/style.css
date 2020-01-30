@@ -1,0 +1,7 @@
+#about-me .about-me-container {
+    display: grid;
+    grid-template-areas: 
+        'img img'
+        'h1 h1 p'
+    ;
+}
