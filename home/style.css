@@ -27,14 +27,14 @@ a {
 
 #main .main-container ul{
    display: flex;
-   background: #e8e8e8;
+   background: #fff;
    color: #000;
-   margin: 1rem 0;
+   /* margin: 1rem 0; */
    justify-content: right;
 }
 
 #main .main-container ul li {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bolder;
 }
 
@@ -53,7 +53,9 @@ a {
 }
 
 #about .about-container li {
-    font-size: 4rem;
+    font-size: 18rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #about .about-container p {
@@ -78,13 +80,12 @@ a {
 #social .social-container {
     display: flex;
     justify-content: space-evenly;
-    background: #e8e8e8;
-    margin: 1rem 0;
+    background: #fff;
+    /* margin: 1rem 0; */
     padding: 1rem;
 }
 
 #social .social-container .social-content i a{
-    font-size: 2rem;
     color: #000;
     margin: 1rem 0;
     padding: 1rem
