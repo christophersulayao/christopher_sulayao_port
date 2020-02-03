@@ -1,7 +1,65 @@
-#about-me .about-me-container {
+body {
+    background: #fff;
+    color: #000;
+}
+
+.container {
     display: grid;
     grid-template-areas: 
-        'img img'
-        'h1 h1 p'
+    ' header header header'
+    'section2 section3 section4'
+    'section5 section5 section5'
+    'section6 section6 section6'
+    
     ;
+    
 }
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.header img {
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.section1 h3, .section2 h3, .section3 h3, .section4 h3, .section5 h3, .section6 h3 {
+   text-align: center;
+}
+
+.section1 { grid-area: section1; }
+
+.section2 { grid-area: section2; }
+
+.section3 { grid-area: section3; }
+
+.section4 { grid-area: section4; }
+
+.section5 { grid-area: section5; }
+
+.section6 { grid-area: section6; }
+
+section p {
+    padding: 1rem;
+    margin: .5rem;
+}
+
+
+.contact-info li i {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+
